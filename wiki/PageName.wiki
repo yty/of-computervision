@@ -1,4 +1,2 @@
-#ScreenShots
-We will put screenshot images here
-
-
+#summary ScreenShots
+We will put screenshot images here.
