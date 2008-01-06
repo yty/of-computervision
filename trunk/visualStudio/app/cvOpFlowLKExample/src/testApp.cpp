@@ -1,3 +1,8 @@
+//
+// cvOpFlowLKExample by Takashi Maekawa.
+// An usage of example cvOpFlowBM class.
+//
+
 #include "testApp.h"
 
 
