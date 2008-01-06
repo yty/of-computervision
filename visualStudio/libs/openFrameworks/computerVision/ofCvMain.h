@@ -21,5 +21,6 @@
 // optical flow
 
 #include "ofCvOpticalFlowLK.h"
+#include "ofCvOpticalFlowBM.h"
 
 #endif
