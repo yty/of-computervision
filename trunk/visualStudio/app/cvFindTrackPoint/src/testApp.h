@@ -1,3 +1,10 @@
+//
+// cvFindTrackPointExample by Takashi Maekawa and Satoru Higa.
+// Based on code Good Features Track by masayashi.
+//    http://wikiwiki.jp/masayashi/?OpenCV%2FGood%20Features%20to%20Track
+// An usage of example cvFindTrackPoint class.
+//
+
 #ifndef _TEST_APP
 #define _TEST_APP
 
