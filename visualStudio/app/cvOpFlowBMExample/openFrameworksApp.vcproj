@@ -400,11 +400,19 @@
 						>
 					</File>
 					<File
-						RelativePath="..\..\libs\openFrameworks\computerVision\ofCvOpticalFlow.cpp"
+						RelativePath="..\..\libs\openFrameworks\computerVision\ofCvOpticalFlowBM.cpp"
 						>
 					</File>
 					<File
-						RelativePath="..\..\libs\openFrameworks\computerVision\ofCvOpticalFlow.h"
+						RelativePath="..\..\libs\openFrameworks\computerVision\ofCvOpticalFlowBM.h"
+						>
+					</File>
+					<File
+						RelativePath="..\..\libs\openFrameworks\computerVision\ofCvOpticalFlowLK.cpp"
+						>
+					</File>
+					<File
+						RelativePath="..\..\libs\openFrameworks\computerVision\ofCvOpticalFlowLK.h"
 						>
 					</File>
 				</Filter>
