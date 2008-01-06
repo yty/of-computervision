@@ -1,3 +1,8 @@
+//
+// cvOpFlowBMExample by Takashi Maekawa and Satoru higa.
+// An usage of example cvOpFlowBM class.
+//
+
 #include "testApp.h"
 
 //--------------------------------------------------------------
