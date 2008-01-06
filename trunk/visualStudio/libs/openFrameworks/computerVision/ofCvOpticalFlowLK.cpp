@@ -1,3 +1,14 @@
+//
+// ofCvOpticalFlowLK.h - a OpenCV cvOpticalFlowLK warpper for openFrameworks
+//
+// Copyright (C) 2008 Takashi Maekawa <takachin@generative.info> 
+//     All rights reserved.
+//     This is free software with ABSOLUTELY NO WARRANTY.
+//
+// You can redistribute it and/or modify it under the terms of 
+// the GNU Lesser General Public License.
+//
+
 #include "ofCvOpticalFlowLK.h"
 
 ofCvOpticalFlowLK::ofCvOpticalFlowLK(void)

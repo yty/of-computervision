@@ -1,3 +1,15 @@
+//
+// ofCvOpticalFlowBM.h - a OpenCV cvCalcOpticalFlowBM warpper for openFrameworks
+//
+// Copyright (C) 2008 Takashi Maekawa <takachin@generative.info> 
+// Copyright (C) 2008 Satoru Higa
+//     All rights reserved.
+//     This is free software with ABSOLUTELY NO WARRANTY.
+//
+// You can redistribute it and/or modify it under the terms of 
+// the GNU Lesser General Public License.
+//
+
 #pragma once
 
 #include "ofMain.h"

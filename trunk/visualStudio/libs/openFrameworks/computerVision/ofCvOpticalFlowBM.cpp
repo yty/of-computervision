@@ -1,19 +1,28 @@
+//
+// ofCvOpticalFlowBM.c - a OpenCV cvCalcOpticalFlowBM warpper for openFrameworks
+//
+// Copyright (C) 2008 Takashi Maekawa <takachin@generative.info> 
+// Copyright (C) 2008 Satoru Higa
+//     All rights reserved.
+//     This is free software with ABSOLUTELY NO WARRANTY.
+//
+// You can redistribute it and/or modify it under the terms of 
+// the GNU Lesser General Public License.
+//
+
 #include "ofCvOpticalFlowBM.h"
 
 ofCvOpticalFlowBM::ofCvOpticalFlowBM(void)
 {
 	captureWidth = DEFAULT_CAPTURE_WIDTH;
 	captureHeight = DEFAULT_CAPTURE_HEIGHT;
-
-	//captureColsStep = DEFAULT_CAPTURE_COLS_STEP;
-	//captureRowsStep = DEFAULT_CAPTURE_ROWS_STEP;
-
 }
 
 ofCvOpticalFlowBM::~ofCvOpticalFlowBM(void)
 {
-	//cvReleaseImage(&vel_x);
-	//cvReleaseImage(&vel_y);
+  // TODO : release cv matrices 
+  //cvReleaseImage(&vel_x);
+  //cvReleaseImage(&vel_y);
 }
 	
 void ofCvOpticalFlowBM::allocate(int _w, int _h){
