@@ -1,3 +1,10 @@
+//
+// cvFindTrackPointExample by Takashi Maekawa and Satoru Higa.
+// Based on code Good Features Track by masayashi.
+//    http://wikiwiki.jp/masayashi/?OpenCV%2FGood%20Features%20to%20Track
+// An usage of example cvFindTrackPoint class.
+//
+
 #include "testApp.h"
 
 struct find_track_point {
@@ -23,8 +30,7 @@ struct find_track_point {
         gray->allocate(w, h);
     }
     
-    //void update(const ofCvColorImage& image){
-	void update(ofCvColorImage& image){
+   void update(ofCvColorImage& image){
         gray->setFromColorImage(image);
         
         cvGoodFeaturesToTrack( gray->getCvImage(), eig, temp, &points[0], &count,
